@@ -81,29 +81,27 @@ body {
 }
 
 
-@media screen and (max-width: 700px) {   /*abaixo disso*/ 
+@media screen and (max-width: 400px) {   /*abaixo disso*/ 
 
 
 body {
-    font-family: 'Red Hat Mono', monospace;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    background-color:chocolate;
-    overflow: auto;
+    height: 100vh;
+    background-color:darkmagenta;
 }
 
 #gameBoard {
-    max-width: 500px;
+    max-width: 350px;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
     gap: 20px;
 }
 
 .card{
-    width: 140px;
-    height: 140px;
+    width: 70px;
+    height: 70px;
 }
 
 #gameOver {
