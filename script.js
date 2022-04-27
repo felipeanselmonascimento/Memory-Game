@@ -59,7 +59,7 @@ function flipCard() {
                 game.clearCards();
                 if(game.checkGameOver()){
                     let gameOverLayer = document.getElementById('gameOver');
-                    gameOverLayer.style.display = 'flex';   
+                    gameOverLayer.style.transform = 'translateY(0%)';   
 
 
                 };
@@ -83,5 +83,5 @@ function restart(){
     game.clearCards();
     startGame();
     let gameOverLayer = document.getElementById('gameOver');
-    gameOverLayer.style.display = 'none';  
+    gameOverLayer.style.transform = 'translateY(150%)';  
 }

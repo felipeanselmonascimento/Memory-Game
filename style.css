@@ -12,6 +12,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #c7cdd3;
+    overflow: hidden;
 }
 
 .card{
@@ -57,11 +58,12 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
     font-size: 50px;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    top: 0;
+    transform: translateY(150%);
+    transition: all 0.3s ease-in-out;
 }
 
 #restart {
@@ -119,4 +121,9 @@ body {
 .card_back {
     font-size: 10px;
 }
+
+#gameOver {
+    font-size: 10px;
+}
+
 }
