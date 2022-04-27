@@ -89,20 +89,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-color: #c7cdd3;
 }
 
 #gameBoard {
-    max-width: 450px;
+    max-width: 390px;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
     gap: 20px;
 }
 
 .card{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 #gameOver {
