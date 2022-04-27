@@ -58,7 +58,6 @@ let game = {
         'firebase',
         'html',
         'javascript',
-        'jquery',
         'mongo',
         'node',
         'react' ],
